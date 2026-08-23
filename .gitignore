@@ -1,5 +1,9 @@
 __pycache__/
 *.pyc
 *.pyo
-data/
+# Chi bo qua thu muc DU LIEU cua tung du an. Truoc day dong nay la "data/",
+# ma luat do khop MOI thu muc ten data o bat ky tang nao - no da nuot luon
+# goi ma nguon src/data/ khien ung dung thieu file khi trien khai.
+Cuoi_Ky/data/
+Giua ky/data/
 venv/
