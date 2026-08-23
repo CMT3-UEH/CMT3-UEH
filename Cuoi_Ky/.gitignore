@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Dau moc bo may backtest da dat phep tu kiem
+reports/.backtest_dat
+
+# Log tam khi chay nen, khong thuoc bai nop
+reports/_log_*.txt
