@@ -3,7 +3,11 @@
 # Phần huấn luyện (torch, scikit-learn, lightgbm) và notebook nằm ở
 # requirements-dev.txt — cài bộ đó khi chạy run.bat trên máy.
 pandas==2.3.3
-numpy==2.2.6
+# Streamlit Cloud chay Python 3.14, ma numpy 2.2.6 khong co ban dung san cho
+# phien ban nay nen uv phai bien dich tu nguon va that bai, keo theo ca bo cai
+# that bai. 2.3.5 la ban gan nhat co san wheel cho 3.14 (scipy 1.17.1 yeu cau <2.7).
+# May cuc bo van dung 2.2.6 qua requirements-dev.txt.
+numpy==2.3.5
 pyarrow==24.0.0
 scipy==1.17.1
 statsmodels==0.14.6
