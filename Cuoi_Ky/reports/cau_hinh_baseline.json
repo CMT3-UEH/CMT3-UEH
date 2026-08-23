@@ -1,0 +1,55 @@
+{
+  "luat": {
+    "A3 · Nắm giữ điều tiết biến động": {
+      "target": 0.1
+    },
+    "A4 · Giao cắt trung bình động": {
+      "nhanh": 20,
+      "cham": 100
+    },
+    "A5 · RSI đảo chiều": {
+      "vao": 25,
+      "ra": 65
+    },
+    "A6 · Momentum tuyệt đối 12–1": {
+      "nhin_lai": 126,
+      "loc_ma": 200
+    },
+    "A7 · Bứt phá kênh Donchian": {
+      "vao": 40,
+      "ra": 20
+    },
+    "A7b · Hồi quy dải Bollinger": {
+      "window": 40,
+      "n_std": 1.5
+    },
+    "A8 · Lọc alpha CAPM": {
+      "window": 120
+    }
+  },
+  "uoc_luong": {
+    "A10 · Ridge": {
+      "kieu": "ridge",
+      "alpha": 1000.0
+    },
+    "A10 · Lasso": {
+      "kieu": "lasso",
+      "alpha": 0.001
+    },
+    "A10 · OLS": {
+      "kieu": "ols"
+    },
+    "A11 · Logistic": {
+      "C": 0.003
+    },
+    "B1a · Rừng ngẫu nhiên": {
+      "sau": 4
+    },
+    "B1b · LightGBM": {
+      "sau": 2,
+      "hoc": 0.01
+    }
+  },
+  "so_cau_hinh_da_do": 44,
+  "so_cua_so_tien_dan": 15
+}

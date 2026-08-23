@@ -1,0 +1,29 @@
+2026-08-23 10:46:21	27	run_final: đánh giá cuối 27 chiến lược
+2026-08-23 10:46:21	1	evaluate_strategy: A1 · Mua và nắm giữ FPT
+2026-08-23 10:46:21	1	evaluate_strategy: A8b · Cổ phiếu và thị trường cùng trên MA200
+2026-08-23 10:46:21	1	evaluate_strategy: A3 · Nắm giữ điều tiết biến động
+2026-08-23 10:46:21	1	evaluate_strategy: A4 · Giao cắt trung bình động
+2026-08-23 10:46:21	1	evaluate_strategy: A5 · RSI đảo chiều
+2026-08-23 10:46:21	1	evaluate_strategy: A6 · Momentum tuyệt đối 12–1
+2026-08-23 10:46:21	1	evaluate_strategy: A7 · Bứt phá kênh Donchian
+2026-08-23 10:46:21	1	evaluate_strategy: A7b · Hồi quy dải Bollinger
+2026-08-23 10:46:22	1	evaluate_strategy: A8 · Lọc alpha CAPM
+2026-08-23 10:46:22	1	evaluate_strategy: A9 · Hồi quy đa nhân tố APT
+2026-08-23 10:46:22	1	evaluate_strategy: A10 · Ridge
+2026-08-23 10:46:22	1	evaluate_strategy: A10 · Lasso
+2026-08-23 10:46:22	1	evaluate_strategy: A10 · OLS
+2026-08-23 10:46:22	1	evaluate_strategy: A11 · Logistic
+2026-08-23 10:46:22	1	evaluate_strategy: B1a · Rừng ngẫu nhiên
+2026-08-23 10:46:22	1	evaluate_strategy: B1b · LightGBM
+2026-08-23 10:46:22	1	evaluate_strategy: B2 · MLP
+2026-08-23 10:46:22	1	evaluate_strategy: B3 · CNN 1 chiều
+2026-08-23 10:46:22	1	evaluate_strategy: B4a · RNN
+2026-08-23 10:46:22	1	evaluate_strategy: B4b · LSTM
+2026-08-23 10:46:22	1	evaluate_strategy: B4c · GRU
+2026-08-23 10:46:22	1	evaluate_strategy: B5 · Transformer
+2026-08-23 10:46:22	1	evaluate_strategy: ATFN-A · TCN+GRU
+2026-08-23 10:46:22	1	evaluate_strategy: ATFN-AB · +đa tầm dự báo & cổng nhịp
+2026-08-23 10:46:22	1	evaluate_strategy: ATFN-ABC · +cổng chế độ
+2026-08-23 10:46:22	1	evaluate_strategy: ATFN-ABC+L · +mất mát Sharpe có phí
+2026-08-23 10:46:22	1	evaluate_strategy: ATFN-ABCD · +vùng không giao dịch
+2026-08-23 10:46:45	1	evaluate_strategy: mốc
