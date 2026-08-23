@@ -1,18 +1,18 @@
 # Thư viện cho ỨNG DỤNG Streamlit (bản triển khai trên Streamlit Cloud).
 # Chỉ gồm những gói mà app.py và 11 trang trong trang/ thực sự nạp tới.
-# Phần huấn luyện (torch, scikit-learn, lightgbm) và notebook nằm ở
-# requirements-dev.txt — cài bộ đó khi chạy run.bat trên máy.
+# Bộ đầy đủ để tải dữ liệu, huấn luyện và chạy notebook nằm ở requirements-dev.txt.
+#
+# Không có vnstock và yfinance: hai gói này chỉ được nạp bên trong các hàm
+# fetch_ohlcv/fetch_macro của src/data/loaders.py, mà ứng dụng không bao giờ gọi
+# tới — nó đọc thẳng data/processed/panel_FPT.csv đã có sẵn trong repo. Giữ
+# chúng lại thì vnstock kéo theo vnstock-ezchart vốn đòi numpy<2.3, trong khi
+# Python 3.14 của Streamlit Cloud cần numpy>=2.3.2 mới có bản dựng sẵn — mâu
+# thuẫn không thể giải. Chạy tải dữ liệu trên máy thì dùng requirements-dev.txt.
 pandas==2.3.3
-# Streamlit Cloud chay Python 3.14, ma numpy 2.2.6 khong co ban dung san cho
-# phien ban nay nen uv phai bien dich tu nguon va that bai, keo theo ca bo cai
-# that bai. 2.3.5 la ban gan nhat co san wheel cho 3.14 (scipy 1.17.1 yeu cau <2.7).
-# May cuc bo van dung 2.2.6 qua requirements-dev.txt.
 numpy==2.3.5
 pyarrow==24.0.0
 scipy==1.17.1
 statsmodels==0.14.6
-vnstock==4.0.4
-yfinance==1.4.1
 requests==2.34.2
 plotly==6.9.0
 streamlit==1.61.1
