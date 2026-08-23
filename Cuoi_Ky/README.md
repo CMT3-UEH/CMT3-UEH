@@ -42,7 +42,7 @@ python -m venv .venv
 .venv\Scripts\activate                     # Windows
 # source .venv/bin/activate                # macOS / Linux
 
-pip install -r requirements.txt
+pip install -r requirements-dev.txt         # bộ đầy đủ, kèm torch và notebook
 python fetch_data.py                        # 1. tải dữ liệu          ~1 phút
 python -m src.experiments.check_engine      # 2. tự kiểm backtest      ~3 phút
 python -m src.experiments.report_data       # 3. dữ liệu và mốc        ~2 phút
